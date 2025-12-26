@@ -1,0 +1,20 @@
+{
+  "name": "invoice-memory-layer",
+  "version": "1.0.0",
+  "description": "Memory-driven learning layer for invoice automation (Flowbit assignment)",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/demo-runner.js"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "better-sqlite3": "^8.0.0"
+  },
+  "devDependencies": {
+    "@types/better-sqlite3": "^7.6.13",
+    "@types/node": "^20.0.0",
+    "typescript": "^5.0.0"
+  }
+}
